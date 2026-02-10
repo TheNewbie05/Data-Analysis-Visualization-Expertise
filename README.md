@@ -3,7 +3,7 @@ Author: Vishal Kumbhakar
 
 Location: Jamshedpur, Jharkhand, India
 
-## Technical Stack: Python, Power BI, SQL, Excel, DAX
+## Technical Stack: Python, Power BI,  DAX
 
 ## 🌟 Executive Summary
 This repository is a consolidated collection of five major data projects. It demonstrates a full-cycle analytics approach: from data cleaning and exploratory analysis in Python to building high-performance, interactive dashboards in Power BI.
