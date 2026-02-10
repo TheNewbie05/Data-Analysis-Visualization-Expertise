@@ -1,8 +1,8 @@
-📱 Social Media Engagement & Viral Trends Analysis
+##📱 Social Media Engagement & Viral Trends Analysis
 📝 Project Overview
 This project focuses on identifying the key drivers of virality across major social media platforms. By analyzing a dataset of 5,000 posts, we explore the relationship between content types, regional preferences, and engagement metrics (Likes, Shares, and Comments) to determine what makes content truly "viral."
 
-📂 Dataset Information
+##📂 Dataset Information
 Source File: Viral_Social_Media_Trends.csv
 
 Data Volume: 5,000 unique records.
@@ -19,14 +19,14 @@ Hashtag & Region (Categorical Segments)
 
 Engagement_Level (High, Medium, Low)
 
-🛠️ Technical Stack
+##🛠️ Technical Stack
 Programming: Python 3.x (Pandas for data manipulation).
 
 Visualization: Matplotlib & Seaborn (Static EDA), Power BI (Interactive Dashboarding).
 
 Environment: Jupyter Notebook / VS Code.
 
-🚀 Key Implementation Steps
+##🚀 Key Implementation Steps
 1. Data Enrichment (Feature Engineering)
 To move beyond basic view counts, we engineered high-value metrics in Python:
 
@@ -54,11 +54,9 @@ Clustered Column Charts: Comparing subject performance by platform.
 
 Geospatial Maps: Visualizing viral intensity by region (India, USA, UK, etc.).
 
-📈 Top Business Insights
+##📈 Top Business Insights
 Prioritize Short-Form Video: Strategy should shift toward "Shorts" and "Reels" as they convert passive viewers into active engagers at the highest rate.
 
 Platform-Specific Strategy: Use YouTube for massive reach (Awareness) and TikTok/Instagram for community building (Engagement).
 
 Regional Optimization: Content tagged with #Challenge performs consistently well across all 8 analyzed regions.
-
-📁 Repository Structure
