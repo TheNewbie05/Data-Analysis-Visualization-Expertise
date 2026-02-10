@@ -1,79 +1,54 @@
-# Student Performance Analysis using Seaborn Plots
+## 🎓 Student Performance & Academic Success Factors
+## 📌 Project Overview
+This project explores the relationship between a student's socio-economic background and their academic performance. By analyzing a dataset of 1,000 students, we investigate how factors such as parental education, lunch programs, and test preparation impact standardized scores in Math, Reading, and Writing.
 
-This project involves the analysis of student performance using Seaborn plots in Jupyter Notebook. The dataset contains information about students' demographics, study habits, and performance in various subjects. Through this analysis, we aim to gain insights into the factors that influence student performance and visualize the relationships between different variables.
+## 📂 Dataset Information
+Source File: students1.csv
 
-## Dataset
+Size: 1,000 unique student records.
 
-The dataset used for this analysis includes information about students' attributes such as gender, parental education level, test preparation course, and scores in math, reading, and writing.
+Feature Set:
 
-## Prerequisites
+Categorical: Gender, Race/Ethnicity, Parental Education, Lunch Type, Test Prep Course.
 
-Before running the code, make sure you have the following dependencies installed:
+Numerical: Math Score, Reading Score, Writing Score.
 
-- Python (3.x)
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+Engineered Features: Total Score, Average Score, Pass/Fail Status (Threshold: 60%).
 
-## Getting Started
+## 🛠️ Technical Stack
+Data Engineering: Python (Pandas) for data cleaning and metric calculation.
 
-To get started, follow the steps below:
+Exploratory Analysis: Jupyter Notebook (Seaborn/Matplotlib) for correlation and distribution studies.
 
-1. Clone the repository:
+Business Intelligence: Microsoft Power BI for interactive dashboarding and DAX modeling.
 
-```bash
-git clone https://github.com/shaadclt/Student-Performance-Analysis.git
-```
+##🚀 Key Implementation Steps
+1. Data Transformation (Python)
+Developed a Pass/Fail logic based on the mean of three subjects.
 
-2. Change into the project directory:
+Aggregated scores to create a unified Overall Average metric.
 
-```bash
-cd Student-Performance-Analysis
-```
+Verified data integrity by ensuring no null values or score outliers (0-100 range).
 
-3. Install the required dependencies:
+2. Statistical Findings
+The Prep Factor: Students who completed the preparation course scored an average of 10 points higher than those who did not.
 
-4. Run Jupyter Notebook:
+Parental Education: A direct linear correlation was observed between higher parental degrees (Master's/Bachelor's) and higher student median scores.
 
-```bash
-jupyter notebook
-```
+The Literacy Link: Discovered a 0.95 correlation between Reading and Writing scores, suggesting these skills are developed interdependently.
 
-5. Open the `Student Performance Analysis.ipynb` notebook in Jupyter.
+3. Power BI Dashboard Features
+KPI Cards: Instant visibility into Total Students, Overall Average, and the class Pass Rate.
 
-6. Run the notebook cells to load the dataset, perform the analysis, and generate Seaborn plots.
+Impact Visuals: Clustered bar charts showing the "Prep Course" lift per subject.
 
-## Analysis Overview
+Demographic Drill-down: Slicers for Lunch and Gender to analyze equity in performance.
 
-The notebook provides a step-by-step guide to analyze student performance. The analysis includes the following tasks:
+Scatter Plot: Visualizing the literacy correlation and identifying "Math Specialists."
 
-- Loading and understanding the dataset
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA) using descriptive statistics
-- Visualizing the distributions of scores using Seaborn plots
-- Analyzing the relationships between different variables using scatter plots, bar plots, and other Seaborn visualizations
-- Drawing insights and conclusions based on the analysis results
+##💡 Strategic Insights
+Targeted Support: Students from "Some High School" parental backgrounds or "Free/Reduced" lunch status show the highest need for supplemental academic resources.
 
-## Results and Insights
+Focus Areas: While Reading and Writing are linked, Math scores are more independent, requiring a separate, specialized tutoring approach.
 
-Throughout the analysis, various Seaborn plots such as histograms, box plots, violin plots, and scatter plots are used to visualize the student performance and relationships between different variables. These visualizations provide insights into factors that may influence student scores, such as parental education level, test preparation, or study time.
-
-The notebook also includes interpretations and conclusions based on the analysis results. Feel free to refer to the notebook for detailed insights.
-
-## Customization
-
-You can customize the analysis to suit your specific requirements. For example, you can explore additional variables, create new visualizations using Seaborn's extensive plotting capabilities, or apply different statistical techniques to gain deeper insights into student performance.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
-## Acknowledgments
-
-- This analysis is inspired by the desire to understand the factors that influence student performance and help identify potential areas for improvement.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Preparation Value: Data proves that mandated test preparation could significantly narrow the performance gap across all demographics.
