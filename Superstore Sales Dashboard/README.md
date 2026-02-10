@@ -93,10 +93,8 @@ The exploratory phase focused on answering key business questions using descript
 ---
 
 ## 👩🏽‍💻 Author
-**Jaya Gayle**
-M.S. Data Analytics | University of Maryland Global Campus
-📍 Based in South Korea (US SOFA Status)  
-🔗 [LinkedIn Profile](www.linkedin.com/in/jaya-gayle-908680389)  |  📧 jayagayle154@gmail.com
+**VISHAL KUMBHAKAR**
+
 
 
    
