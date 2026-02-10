@@ -16,7 +16,6 @@ Key Insight: Proved the heavy correlation between age (65+) and specific comorbi
 
 Tools: Python (Pandas), Power BI (Global Mapping).
 
-**[View Project Folder](./COVID Analysis)**
 
 ## 2. ## 🎓 Student Performance Analytics
 Focus: Evaluating how socio-economic factors and test prep impact grades.
@@ -25,7 +24,6 @@ Key Insight: Identified that test preparation completion narrows the performance
 
 Tools: Python (Seaborn), Power BI (Educational KPIs).
 
-View Project Folder
 
 ## 3. 📱 Social Media Viral Trends
 Focus: Analyzing engagement across TikTok, Instagram, and YouTube.
@@ -34,7 +32,6 @@ Key Insight: Demonstrated that short-form video content (Shorts/Reels) achieves 
 
 Tools: Python (Feature Engineering), Power BI (Marketing Analytics).
 
-View Project Folder
 
 ## 4. 🌤️ Weather Forecasting & Patterns
 Focus: Analyzing historical weather data to identify trends and seasonal shifts.
@@ -43,7 +40,7 @@ Key Insight: Visualized temperature anomalies and precipitation patterns using t
 
 Tools: Python (Time-series Analysis), Matplotlib, Power BI.
 
-View Project Folder
+
 
 ## 5. 🛒 Superstore Market Analysis
 Focus: Retail data mining to optimize sales, profit, and shipping efficiency.
@@ -52,7 +49,6 @@ Key Insight: Identified high-loss categories and optimized regional sales target
 
 Tools: Jupyter notebook(Pyhton), Power BI (Sales Dashboards).
 
-View Project Folder
 
 ## 🛠️ Technical Skillset
 Category	Tools & Technologies
